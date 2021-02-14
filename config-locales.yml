@@ -1,3 +1,6 @@
+server:
+    port: ${PORT:8081}
+
 mensajes:
     hola: "Hola Estas accediendo a los locales"
     test: "Esta probando con los locales"
