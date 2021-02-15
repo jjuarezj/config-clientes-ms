@@ -1,4 +1,4 @@
 server:
     port: ${PORT:8081}
 
-mensajes: "Hola Estas accediendo a los locales"
+mensajes: Hola Estas accediendo a los locales
