@@ -1,6 +1,0 @@
-server:
-    port: ${PORT:8082}
-    
-mensajes:
-    hola: "Hola Estas usando productos"
-    test: "Esta es una prueba de productos"
