@@ -1,0 +1,29 @@
+
+https://www.digitalocean.com/community/tutorials/como-instalar-y-usar-docker-en-ubuntu-18-04-1-es
+
+1.- sudo apt update
+
+2.- sudo apt install apt-transport-https ca-certificates curl software-properties-common
+
+3.- curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
+
+4.- sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu bionic stable"
+
+5.- sudo apt update
+
+6.- apt-cache policy docker-ce
+
+7.- sudo apt install docker-ce
+
+8.- sudo systemctl status docker
+
+
+docker pull juarezer7c/simplewhale
+
+docker run -p 8888:8888 juarezer7c/simplewhale -d
+
+docker ps
+
+docker stop id
+
+docker images
