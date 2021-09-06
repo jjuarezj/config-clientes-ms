@@ -18,7 +18,9 @@ https://www.digitalocean.com/community/tutorials/como-instalar-y-usar-docker-en-
 8.- sudo systemctl status docker
 
 
+
 docker pull juarezer7c/simplewhale
+#para descargar
 
 docker run -p 8888:8888 juarezer7c/simplewhale -d
 
@@ -27,3 +29,13 @@ docker ps
 docker stop id
 
 docker images
+
+.docker build -t atareao/chiquito:latest .
+#PAra crear la imagen
+
+
+docker push juarezer7c/simplewhale
+#PAra publicar
+
+docker run -p 4200:4200 juarezer7c/banca -d
+
